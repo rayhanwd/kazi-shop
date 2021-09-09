@@ -1,4 +1,5 @@
 import React from 'react'
+import DiscountAds from './DiscountAds'
 
 const Banner = () => {
     return (
@@ -6,17 +7,17 @@ const Banner = () => {
             <div className="row">
                 <div className="col-md-3">
                     <ul class="list-group">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                        <li class="list-group-item">A fourth item</li>
-                        <li class="list-group-item">And a fifth one</li>
-                        <li class="list-group-item">And a fifth one</li>
-                        <li class="list-group-item">And a fifth one</li>
-                        <li class="list-group-item">And a fifth one</li>
-                        <li class="list-group-item">And a fifth one</li>
-                        <li class="list-group-item">And a fifth one</li>
-                        <li class="list-group-item">And a fifth one</li>
+                        <li class="list-group-item">Pet Food</li>
+                        <li class="list-group-item">Furniture</li>
+                        <li class="list-group-item">Plant</li>
+                        <li class="list-group-item">Flower</li>
+                        <li class="list-group-item">Cakes</li>
+                        <li class="list-group-item">Cosmetics</li>
+                        <li class="list-group-item">Medical</li>
+                        <li class="list-group-item">Black Friday</li>
+                        <li class="list-group-item">Electronics</li>
+                        <li class="list-group-item">Handmade</li>
+                        <li class="list-group-item">Auto Parts</li>
                     </ul>
                 </div>
                 <div className="col-md-9">
@@ -45,6 +46,9 @@ const Banner = () => {
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
+                    </div>
+                    <div className="col-md-9">
+                    <DiscountAds/>
                     </div>
                 </div>
             </div>
