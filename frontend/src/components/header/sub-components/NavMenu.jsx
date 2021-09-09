@@ -1,47 +1,54 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import { Link } from "react-router-dom";
+import { LinkItem1, LinkItem2 } from '../../../utils/local-data/NavItem';
 
 const NavMenu = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg">
-            <div className="container">
-                <h6>Category</h6>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse mx-5 px-5" id="navbarNav">
-                    <ul className="navbar-nav ml-5 pl-5">
-                        <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Shop</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Collection</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Blog</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
+        <nav>
+            <div className="container mx-auto">
+                <div className="flex flex-wrap items-center p-4">
+                    <div className="lg:w-1/6">
+                        <h4 className="text-gray-700 text-md font-medium">
+                            Category
+                        </h4>
+                    </div>
+                    <div className="lg:w-1/2">
+                        <div className=" flex items-center">
+                            <div className="hidden md:block mx-auto">
+                                <div className="flex space-x-4">
+
+                                    {LinkItem1.map(link =>
+                                        <Link className="text-gray-800  hover:text-gray-500 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium" to={link.path}>
+                                            {link.name}
+                                        </Link>)}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lg:w-1/3">
+                        <div className=" flex items-center">
+                            <div className="ml-auto hidden md:block">
+                                <div className="flex space-x-4">
+
+                                    {LinkItem2.map(link =>
+                                        <Link className="text-gray-800  hover:text-gray-500 dark:hover:text-white pl-6 py-2 rounded-md text-md font-medium" to={link.path}>
+                                            {link.name}
+                                        </Link>)}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#">News Feed</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Merchant Zone</a>
-                    </li>
-                    <li className="nav-item pr-0">
-                        <a className="nav-link" href="#">Help</a>
-                    </li>
-                </ul>
             </div>
         </nav>
     )
 }
 
-export default NavMenu
+export default NavMenu;
+
+
+
+
+
+

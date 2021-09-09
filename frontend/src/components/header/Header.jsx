@@ -6,7 +6,7 @@ import TopHeader from './sub-components/TopHeader'
 const Header = () => {
     return (
         <Fragment>
-            <TopHeader/>
+           <TopHeader/>
             <SearchTop/>
            <NavMenu/>
         </Fragment>

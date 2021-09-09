@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from '../../../assets/images/shop-logo.PNG';
-
+import { Link } from "react-router-dom";
 const Logo = () => {
     return (
-        <a className="navbar-brand my-1" href="#">
+        <Link to='/' className="navbar-brand my-1">
             <img src={logo} alt="" />
-        </a>
+        </Link>
     )
 }
 
