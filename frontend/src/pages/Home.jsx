@@ -1,16 +1,18 @@
-import React,{ Fragment } from 'react'
-import Banner from '../components/banner/Banner'
-import Header from '../components/header/Header'
-import Product from '../components/product/Product'
+import React,{ Fragment } from 'react';
+import Banner from '../components/banner/Banner';
+import Header from '../components/header/Header';
+import Arrival from '../components/new-arrival/Arrival';
+import SupportSystem from '../components/support/SupportSystem';
 
 const Home = () => {
     return (
         <Fragment>
             <Header/>
             <Banner/>
-            <Product/>
+            <SupportSystem/>
+            <Arrival/>
         </Fragment>
     )
 }
 
-export default Home
+export default Home;
