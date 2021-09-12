@@ -1,31 +1,29 @@
 import React from 'react'
 import DiscountAds from './DiscountAds'
-import Slider from './Slider'
+import Slider from './Slider';
+import { TiArrowUnsorted } from 'react-icons/ti';
 
 const Banner = () => {
     return (
         <div className="container mx-auto">
-            <div className="flex items-center p-4">
-                <div className="lg:w-1/3">
-                    <ul class="list-group">
-                        <li class="list-group-item">Pet Food</li>
-                        <li class="list-group-item">Furniture</li>
-                        <li class="list-group-item">Plant</li>
-                        <li class="list-group-item">Flower</li>
-                        <li class="list-group-item">Cakes</li>
-                        <li class="list-group-item">Cosmetics</li>
-                        <li class="list-group-item">Medical</li>
-                        <li class="list-group-item">Black Friday</li>
-                        <li class="list-group-item">Electronics</li>
-                        <li class="list-group-item">Handmade</li>
-                        <li class="list-group-item">Auto Parts</li>
+            <div className="flex px-4">
+                <div className="lg:w-1/5 bg-gray-100 rounded-b-lg px-5">
+                    <ul class="list-group px-5">
+                        <li class="list-group-item flex items-center">Pet Food <TiArrowUnsorted className="ml-5"/></li>
+                        <li class="list-group-item flex items-center">Furniture <TiArrowUnsorted className="ml-5"/></li>
+                        <li class="list-group-item flex items-center">Plant <TiArrowUnsorted className="ml-5"/></li>
+                        <li class="list-group-item flex items-center">Flower <TiArrowUnsorted className="ml-5"/></li>
+                        <li class="list-group-item flex items-center">Cakes <TiArrowUnsorted className="ml-5"/></li>
+                        <li class="list-group-item flex items-center">Cosmetics <TiArrowUnsorted className="ml-5"/></li>
+                        <li class="list-group-item flex items-center">Medical <TiArrowUnsorted className="ml-5"/></li>
+                        <li class="list-group-item flex items-center">Black Friday <TiArrowUnsorted className="ml-5"/></li>
+                        <li class="list-group-item flex items-center">Electronics <TiArrowUnsorted className="ml-5"/></li>
+                        <li class="list-group-item flex items-center">Handmade <TiArrowUnsorted className="ml-5"/></li>
+                        <li class="list-group-item flex items-center">Auto Parts <TiArrowUnsorted className="ml-5"/></li>
                     </ul>
                 </div>
-                <div className="lg:w-1/2 ml-auto">
+                <div className="lg:w-4/6 ml-auto pt-4">
                     <Slider />
-                    <div className="col-md-9">
-                        <DiscountAds />
-                    </div>
                 </div>
             </div>
         </div>
