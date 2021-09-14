@@ -8,11 +8,11 @@ import { RiServiceLine } from 'react-icons/ri';
 const IconGroup = () => {
     return (
         <div className="flex items-center">
-            <div className="ml-auto flex items-baseline space-x-4">
-                <div className="px-2"><RiServiceLine /></div>
-                <div className="px-2"><IoBagHandleOutline /></div>
-                <div className="px-2"><FiUser /></div>
-                <div className="pl-2"><AiOutlineBell /></div>
+            <div className="ml-auto flex items-center space-x-4">
+                <div className="flex items-center shadow-md px-2 h-8 w-8 rounded-full border-gray-200 border"><RiServiceLine /></div>
+                <div className="flex items-center shadow-md px-2 h-8 w-8 rounded-full border-gray-200 border"><IoBagHandleOutline /></div>
+                <div className="flex items-center shadow-md px-2 h-8 w-8 rounded-full border-gray-200 border"><FiUser /></div>
+                <div className="flex items-center shadow-md px-2 h-8 w-8 rounded-full border-gray-200 border"><AiOutlineBell /></div>
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FooterCopyright = () => {
+const SpecialDiscount = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const FooterCopyright = () => {
     )
 }
 
-export default FooterCopyright
+export default SpecialDiscount

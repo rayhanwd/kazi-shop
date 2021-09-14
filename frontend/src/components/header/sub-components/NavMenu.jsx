@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { LinkItem1, LinkItem2 } from '../../../utils/local-data/NavItem';
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaDown } from 'react-icons/fa';
+import { RiArrowDownSLine } from 'react-icons/ri';
+
 
 const NavMenu = () => {
 
@@ -10,8 +12,8 @@ const NavMenu = () => {
             <div className="container mx-auto">
                 <div className="flex flex-wrap items-center px-4">
                     <div className="lg:w-1/5">
-                        <div className="rounded-t-lg cursor-pointer py-3 bg-gray-100 px-5 text-lg font-medium flex items-center">
-                            Category <span className="ml-auto"><FaBars/></span>
+                        <div className="rounded-t-lg cursor-pointer py-3 bg-gray-100 px-5 text-sm font-medium flex items-center">
+                        <span className="mr-5"><FaBars/></span>BROWSE CATEGORIES <span className="ml-auto"><RiArrowDownSLine/></span>
                         </div>
                     </div>
                     <div className="lg:w-1/2">
