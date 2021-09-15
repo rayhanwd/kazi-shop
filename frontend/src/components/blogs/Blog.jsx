@@ -1,11 +1,11 @@
 import React from 'react';
 
-const NoMatch = () => {
+const Blog = () => {
     return (
         <div>
-            NoMatch
+            Blog
         </div>
     )
 }
 
-export default NoMatch;
+export default Blog;

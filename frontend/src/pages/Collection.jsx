@@ -1,11 +1,11 @@
 import React from 'react';
 
-const NoMatch = () => {
+const Collection = () => {
     return (
         <div>
-            NoMatch
+            
         </div>
     )
 }
 
-export default NoMatch;
+export default Collection;

@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const SpecialDiscount = () => {
     return (
         <div>
-            
+            Discount
         </div>
     )
 }
 
-export default SpecialDiscount
+export default SpecialDiscount;
