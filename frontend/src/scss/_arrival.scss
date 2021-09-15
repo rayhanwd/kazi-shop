@@ -1,0 +1,28 @@
+.arrival-title {
+
+    position: relative;
+    
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        &:before {
+            position: absolute;
+            top: 25px;
+            left: 35%;
+            width: 80px;
+            height: 2px;
+            content: "";
+            background-color: #000;
+        }
+
+        &:after {
+            position: absolute;
+            top: 25px;
+            left: 58.5%;
+            width: 80px;
+            height: 2px;
+            content: "";
+            background-color: #000;
+        }
+    }
+}

@@ -1,5 +1,7 @@
 import React from 'react';
-BiSearchAlt
+import { BiSearchAlt } from 'react-icons/bi';
+
+
 const Form = () => {
     return (
         <form className="form-inline my-3 flex">

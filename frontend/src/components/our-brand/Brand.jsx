@@ -2,7 +2,7 @@ import React from 'react';
 
 const Brand = () => {
     return (
-        <div>
+        <div className="container">
            Branding 
         </div>
     )
