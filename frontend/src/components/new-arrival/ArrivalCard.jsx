@@ -10,34 +10,6 @@ const ArrivalCard = () => {
                         <img src={P_Photo} className="w-full object-cover object-center" />
                     </div>
                     <div className="prod-info grid my-3">
-                        <div>
-                            <ul className="flex flex-row justify-center items-center">
-                                <li className="mr-4 last:mr-0">
-                                    <span className="block p-1 border-2 border-gray-500 rounded-full transition ease-in duration-300">
-                                        <a href="#blue" className="block w-6 h-6 bg-blue-900 rounded-full">
-                                        </a>
-                                    </span>
-                                </li>
-                                <li className="mr-4 last:mr-0">
-                                    <span className="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
-                                        <a href="#yellow" className="block w-6 h-6 bg-yellow-500 rounded-full">
-                                        </a>
-                                    </span>
-                                </li>
-                                <li className="mr-4 last:mr-0">
-                                    <span className="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
-                                        <a href="#red" className="block w-6 h-6 bg-red-500 rounded-full">
-                                        </a>
-                                    </span>
-                                </li>
-                                <li className="mr-4 last:mr-0">
-                                    <span className="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
-                                        <a href="#green" className="block w-6 h-6 bg-green-500 rounded-full">
-                                        </a>
-                                    </span>
-                                </li>
-                            </ul>
-                        </div>
                         <div className="prod-title">
                             <p className="text-2xl uppercase text-gray-900 font-bold">
                                 Puma Shoes
