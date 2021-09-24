@@ -10,7 +10,7 @@ const Home = lazy(() => import("./pages/Home"));
 // const Home = lazy(() => import("./pages/Home"));
 // const Home = lazy(() => import("./pages/Home"));
 // const Home = lazy(() => import("./pages/Home"));
-const LogIn = lazy(() => import("./pages/Login"));
+// const LogIn = lazy(() => import("./pages/Login"));
 const NoMatch = lazy(() => import("./pages/NoMatch"));
 
 const App = () => {
@@ -35,9 +35,9 @@ const App = () => {
           <Route path="/blog">
 
           </Route>
-          <Route path="/login">
+          {/* <Route path="/login">
             <LogIn />
-          </Route>
+          </Route> */}
           <Route exact path="/">
             <Home />
           </Route>
