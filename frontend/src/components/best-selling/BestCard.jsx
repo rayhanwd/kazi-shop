@@ -1,7 +1,7 @@
 import React from 'react';
 import P_Photo from '../../assets/images/kazi-shop15.jpg';
 
-const ArrivalCard = () => {
+const BestCard = () => {
     return (
         <div className="w-1/2 md:w-1/3 lg:w-1/4 flex justify-center items-center">
             <div className="w-full mx-5">
@@ -27,7 +27,7 @@ const ArrivalCard = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default ArrivalCard;
+export default BestCard;

@@ -1,7 +1,6 @@
 .arrival-title {
-
     position: relative;
-    
+
     h2 {
         font-size: 2rem;
         text-align: center;
@@ -23,6 +22,29 @@
             height: 2px;
             content: "";
             background-color: #000;
+        }
+    }
+}
+
+.card {
+    position: relative;
+    .prod-info {
+        position: absolute;
+        display: none;
+        text-align: center;
+        bottom: 0px;
+        width: 85.5%;
+        padding-bottom: 21px;
+        transition: all 1s ease-in-out;
+    }
+    &:hover {
+
+        .prod-img{
+            transition: all .5s ease;
+            transform: translateY(-10px);
+        }
+        .prod-info {
+            display: block;
         }
     }
 }

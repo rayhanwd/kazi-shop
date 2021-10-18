@@ -6,7 +6,6 @@ import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 import Arrival from '../components/new-arrival/Arrival';
 import Brand from '../components/our-brand/Brand';
-import SpecialDiscount from '../components/special-discount/SpecialDiscount';
 import Subscribe from '../components/subscribe/Subscribe';
 import SupportSystem from '../components/support/SupportSystem';
 
@@ -18,7 +17,6 @@ const Home = () => {
             <SupportSystem/>
             <Arrival/>
             <BestSelling/>
-            <SpecialDiscount/>
             <Brand/>
             <Subscribe/>
             <Blog/>

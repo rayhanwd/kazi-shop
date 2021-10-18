@@ -4,9 +4,10 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Cart from './pages/Cart';
 
 const Home = lazy(() => import("./pages/Home"));
-// const Home = lazy(() => import("./pages/Home"));
+const Shop = lazy(() => import("./pages/Shop"));
 // const Home = lazy(() => import("./pages/Home"));
 // const Home = lazy(() => import("./pages/Home"));
 // const Home = lazy(() => import("./pages/Home"));
@@ -30,7 +31,10 @@ const App = () => {
         <Switch>
 
           <Route path="/shop">
-
+            <Shop />
+          </Route>
+          <Route path="/cart/your_cart">
+            <Cart />
           </Route>
           <Route path="/blog">
 

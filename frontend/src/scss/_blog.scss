@@ -1,7 +1,6 @@
 .blog-title {
-
     position: relative;
-    
+
     h2 {
         font-size: 2rem;
         text-align: center;
@@ -24,5 +23,14 @@
             content: "";
             background-color: #000;
         }
+    }
+}
+
+.blog-card {
+    position: relative;
+    overflow: hidden !important;
+    &:hover img {
+        transition: all 0.5s ease;
+        transform: scale(1.1);
     }
 }
